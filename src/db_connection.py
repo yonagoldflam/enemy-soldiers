@@ -25,6 +25,3 @@ class Connection:
             self.db = self.client[mongo_db]
         except PyMongoError as e:
             raise RuntimeError(f"MongoDB connection error: {e}")
-
-
-     # return[]
